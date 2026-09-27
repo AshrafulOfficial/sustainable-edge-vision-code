@@ -1,0 +1,16 @@
+{
+  "project_root": "/home/ashraful/Documents/Final year Thesis/thesis_project",
+  "result_root": "/home/ashraful/Documents/Final year Thesis/thesis_project/03_final_comparison/final_results/baseline_official_vs_advanced_final_20260802_171718",
+  "baseline_official_dir": "/home/ashraful/Documents/Final year Thesis/thesis_project/01_baseline_before_optimization/final_results/baseline_official_reference_final",
+  "baseline_summary_csv": "/home/ashraful/Documents/Final year Thesis/thesis_project/01_baseline_before_optimization/final_results/baseline_official_reference_final/baseline_final_all_metrics.csv",
+  "baseline_results_dir": "/home/ashraful/Documents/Final year Thesis/thesis_project/01_baseline_before_optimization/results",
+  "advanced_final_dir": "/home/ashraful/Documents/Final year Thesis/thesis_project/02_after_pruning_quantization/advanced_pruning_experiments/final_results/advanced_pruned_final_cpu_bgd_offline_20260604_222049",
+  "advanced_summary_csv": "/home/ashraful/Documents/Final year Thesis/thesis_project/02_after_pruning_quantization/advanced_pruning_experiments/final_results/advanced_pruned_final_cpu_bgd_offline_20260604_222049/advanced_pruned_final_all_metrics.csv",
+  "baseline_report_csv": "/home/ashraful/Documents/Final year Thesis/thesis_project/01_baseline_before_optimization/results/baseline_classification_report.csv",
+  "advanced_report_csv": "/home/ashraful/Documents/Final year Thesis/thesis_project/02_after_pruning_quantization/advanced_pruning_experiments/final_results/advanced_pruned_final_cpu_bgd_offline_20260604_222049/metrics/advanced_pruned_classification_report.csv",
+  "baseline_cm_csv": "/home/ashraful/Documents/Final year Thesis/thesis_project/01_baseline_before_optimization/results/baseline_confusion_matrix.csv",
+  "advanced_cm_csv": "/home/ashraful/Documents/Final year Thesis/thesis_project/02_after_pruning_quantization/advanced_pruning_experiments/final_results/advanced_pruned_final_cpu_bgd_offline_20260604_222049/metrics/advanced_pruned_confusion_matrix.csv",
+  "baseline_latency_csv": null,
+  "advanced_latency_csv": "/home/ashraful/Documents/Final year Thesis/thesis_project/02_after_pruning_quantization/advanced_pruning_experiments/final_results/advanced_pruned_final_cpu_bgd_offline_20260604_222049/latency_energy_co2/advanced_pruned_raw_forward_latency_values.csv",
+  "latency_note": "Latency figures were generated from official summary latency values. The baseline official CSV contains average, median, minimum, maximum, and standard deviation latency values, but not per-image raw latency values. Therefore, summary latency comparison figures were generated instead of raw latency histogram/boxplot figures."
+}

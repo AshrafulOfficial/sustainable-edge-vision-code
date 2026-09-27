@@ -1,0 +1,35 @@
+Final Key Findings
+==================
+
+Official baseline MobileNetV2:
+- Test accuracy: 99.7238%
+- Macro F1-score: 99.5686%
+- Weighted F1-score: 99.7230%
+- Saved model size: 26.3835 MB
+- Parameters: 2,272,550
+- MACs: 319,004,966
+- Average CPU forward latency: 34.7619 ms/image
+- Total inference energy: 0.001293781603 kWh
+- Estimated CO2 emission: 0.000894534832 kg
+
+Final advanced pruned FP32 MobileNetV2:
+- Test accuracy: 99.4292%
+- Macro F1-score: 99.2262%
+- Weighted F1-score: 99.4295%
+- Saved model size: 6.9022 MB
+- Parameters: 1,737,890
+- MACs: 249,271,775
+- Average CPU forward latency: 25.5879 ms/image
+- Total inference energy: 0.000925898349 kWh
+- Estimated CO2 emission: 0.000640176303 kg
+
+Compared with the official baseline:
+- Accuracy drop: 0.2946 percentage points
+- Macro F1 drop: 0.3424 percentage points
+- Weighted F1 drop: 0.2936 percentage points
+- Model-size reduction: 73.8390%
+- Parameter reduction: 23.5269%
+- MAC reduction: 21.8596%
+- CPU latency reduction: 26.3910%
+- Energy reduction: 28.4347%
+- CO2 reduction: 28.4347%

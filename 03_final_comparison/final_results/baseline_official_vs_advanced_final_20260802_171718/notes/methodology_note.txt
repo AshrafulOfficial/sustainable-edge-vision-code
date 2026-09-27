@@ -1,0 +1,26 @@
+Final Comparison Methodology
+============================
+
+This final comparison package compares the official before-optimization baseline MobileNetV2
+with the final after-optimization advanced safe pointwise incremental-pruned FP32 MobileNetV2.
+
+Main headline values:
+- Baseline official summary source: /home/ashraful/Documents/Final year Thesis/thesis_project/01_baseline_before_optimization/final_results/baseline_official_reference_final/baseline_final_all_metrics.csv
+- Advanced final summary source: /home/ashraful/Documents/Final year Thesis/thesis_project/02_after_pruning_quantization/advanced_pruning_experiments/final_results/advanced_pruned_final_cpu_bgd_offline_20260604_222049/advanced_pruned_final_all_metrics.csv
+
+Supporting files:
+- Baseline classification report: /home/ashraful/Documents/Final year Thesis/thesis_project/01_baseline_before_optimization/results/baseline_classification_report.csv
+- Baseline confusion matrix: /home/ashraful/Documents/Final year Thesis/thesis_project/01_baseline_before_optimization/results/baseline_confusion_matrix.csv
+- Advanced classification report: /home/ashraful/Documents/Final year Thesis/thesis_project/02_after_pruning_quantization/advanced_pruning_experiments/final_results/advanced_pruned_final_cpu_bgd_offline_20260604_222049/metrics/advanced_pruned_classification_report.csv
+- Advanced confusion matrix: /home/ashraful/Documents/Final year Thesis/thesis_project/02_after_pruning_quantization/advanced_pruning_experiments/final_results/advanced_pruned_final_cpu_bgd_offline_20260604_222049/metrics/advanced_pruned_confusion_matrix.csv
+- Baseline raw latency: None
+- Advanced raw latency: /home/ashraful/Documents/Final year Thesis/thesis_project/02_after_pruning_quantization/advanced_pruning_experiments/final_results/advanced_pruned_final_cpu_bgd_offline_20260604_222049/latency_energy_co2/advanced_pruned_raw_forward_latency_values.csv
+
+The headline comparison table should be used for final reported accuracy, model size,
+parameters, MACs, latency, energy, and CO2 values.
+
+Confusion matrices and per-class F1 plots were generated only when the required detailed
+CSV files were available.
+
+Latency note:
+Latency figures were generated from official summary latency values. The baseline official CSV contains average, median, minimum, maximum, and standard deviation latency values, but not per-image raw latency values. Therefore, summary latency comparison figures were generated instead of raw latency histogram/boxplot figures.

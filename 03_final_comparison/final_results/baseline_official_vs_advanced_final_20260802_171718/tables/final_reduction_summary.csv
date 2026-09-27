@@ -1,0 +1,2 @@
+accuracy_drop_pp,macro_f1_drop_pp,weighted_f1_drop_pp,model_size_reduction_percent,parameter_reduction_percent,mac_reduction_percent,latency_reduction_percent,energy_reduction_percent,co2_reduction_percent
+0.29460504511135355,0.3423667376145261,0.2935765844707845,73.8390259456086,23.52687509625751,21.85959418575321,26.39102935159593,28.434726058462108,28.434726058457738

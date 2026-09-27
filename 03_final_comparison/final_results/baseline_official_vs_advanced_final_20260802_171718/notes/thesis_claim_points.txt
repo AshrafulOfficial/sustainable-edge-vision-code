@@ -1,0 +1,10 @@
+Strict Thesis Claim Points
+==========================
+
+1. This thesis does not claim to introduce a new pruning algorithm.
+2. The contribution is a practical Green AI and Edge AI evaluation of MobileNetV2-based crop disease detection.
+3. MobileNetV2 was already lightweight, but the final advanced pruned FP32 model further reduced model size, parameters, MACs, CPU latency, energy, and CO2 emission.
+4. The final model was selected based on the best practical trade-off between accuracy and efficiency, not accuracy alone.
+5. The final advanced model should be described as selected 11% structured-pruned model plus additional 2% safe pointwise incremental pruning.
+6. Do not report it as simple 13% pruning.
+7. Report actual reductions relative to the official baseline: model size, parameters, MACs, latency, energy, and CO2.

@@ -1,0 +1,17 @@
+Official Baseline MobileNetV2 Final Reference
+================================================================================
+Test accuracy: 99.7238%
+Macro F1: 99.5686%
+Weighted F1: 99.7230%
+Model size: 26.3835 MB
+Parameters: 2,272,550
+MACs: 319,004,966
+Average forward latency: 34.7619 ms/image
+Median forward latency: 30.8317 ms/image
+Energy consumed: 0.001293781603 kWh
+Energy per image: 2.382216172766e-07 kWh/image
+CO2 emissions: 0.000894534832 kg
+CO2 per image: 1.647090466228e-07 kg/image
+
+Reporting note:
+This folder is treated as the official baseline reference for final comparison.

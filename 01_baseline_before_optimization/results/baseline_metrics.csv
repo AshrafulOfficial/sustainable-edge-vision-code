@@ -1,0 +1,2 @@
+model_name,checkpoint_epoch,best_validation_accuracy,test_images,test_accuracy,test_precision_macro,test_recall_macro,test_f1_macro,test_precision_weighted,test_recall_weighted,test_f1_weighted,colab_test_time_seconds,colab_test_time_minutes,device_used_for_this_evaluation,note
+MobileNetV2 Baseline,9,0.9969310090842131,5431,0.9972380777020806,0.9970410640122419,0.9945161237895173,0.9956856348556089,0.9972959405805608,0.9972380777020806,0.9972303794104317,18.300354957580566,0.30500591595967613,cuda,"This is Colab evaluation time, not final CPU latency/energy measurement."

@@ -1,0 +1,2 @@
+model,test_images,model_size_mb,accuracy,macro_precision,macro_recall,macro_f1,weighted_f1,total_pipeline_time_s,avg_pipeline_ms,avg_forward_latency_ms,median_latency_ms,min_latency_ms,max_latency_ms,std_latency_ms,energy_kwh,energy_per_image_kwh,co2_kg,co2_per_image_kg,batch_size,warmup_images,cpu_threads
+ONNX INT8 Pruned MobileNetV2 11%,5431,1.981315,0.955441,0.958098,0.92821,0.939884,0.954814,173.491507,31.944671,12.944766,12.981848,6.238078,41.829331,3.763134,0.0011627690026002546,2.140985090407392e-07,4.578234377159689e-06,8.429818407585507e-10,1,50,7

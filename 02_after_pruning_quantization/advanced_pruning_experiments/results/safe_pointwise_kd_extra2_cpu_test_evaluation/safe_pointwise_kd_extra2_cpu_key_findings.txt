@@ -1,0 +1,10 @@
+Advanced Safe Pointwise KD Extra-2% Candidate - CPU Test Evaluation
+================================================================================
+Test accuracy: 99.4292%
+Macro F1: 99.2262%
+Weighted F1: 99.4295%
+Model size: 6.9022 MB
+Parameters: 1,737,890
+Evaluation time: 194.5002 seconds
+
+Note: This candidate is not final until matched latency-energy measurement is completed.

@@ -1,0 +1,58 @@
+====================================================================================================
+FINAL ADVANCED PRUNED MODEL CPU MEASUREMENT
+====================================================================================================
+Project root: /home/ashraful/Documents/Final year Thesis/thesis_project
+Model path: /home/ashraful/Documents/Final year Thesis/thesis_project/02_after_pruning_quantization/advanced_pruning_experiments/models/safe_pointwise_kd_from_11p_extra_2percent_full_model_NOT_FINAL.pth
+Result root: /home/ashraful/Documents/Final year Thesis/thesis_project/02_after_pruning_quantization/advanced_pruning_experiments/final_results/advanced_pruned_final_cpu_bgd_offline_20260604_222049
+Dataset path: /home/ashraful/Documents/Final year Thesis/thesis_project/data/PlantVillage
+Test CSV: /home/ashraful/Documents/Final year Thesis/thesis_project/data/test_files.csv
+Label map CSV: /home/ashraful/Documents/Final year Thesis/thesis_project/data/label_map.csv
+Device: cpu
+PyTorch: 2.12.0+cpu
+Python: 3.12.3
+CPU threads: 7
+Evaluation batch size: 32
+Measurement batch size: 1
+Warm-up images: 50
+CodeCarbon offline country: BGD
+Torch-Pruning available: False
+
+All required files found.
+
+Dataset information:
+Test images: 5431
+Number of classes: 38
+Evaluation batches: 170
+Measurement batches: 5431
+
+Model loaded successfully.
+Model size MB: 6.9021711349487305
+Total parameters: 1737890
+MACs: 249271775.0
+MAC source: known_verified_value
+
+Starting classification evaluation...
+Classification accuracy %: 99.42920272509667
+Macro F1 %: 99.22619674794637
+Weighted F1 %: 99.42946135657238
+
+Running warm-up inference...
+Warm-up completed. Images used: 50
+
+Starting measured CPU inference...
+Average forward latency ms/image: 25.821118597679725
+Energy consumed kWh: 0.000933080050741
+CO2 emissions kg: 0.0006451418109629
+
+====================================================================================================
+ADVANCED PRUNED FINAL MEASUREMENT COMPLETED
+====================================================================================================
+Result root:
+/home/ashraful/Documents/Final year Thesis/thesis_project/02_after_pruning_quantization/advanced_pruning_experiments/final_results/advanced_pruned_final_cpu_bgd_offline_20260604_222049
+
+Main file:
+/home/ashraful/Documents/Final year Thesis/thesis_project/02_after_pruning_quantization/advanced_pruning_experiments/final_results/advanced_pruned_final_cpu_bgd_offline_20260604_222049/advanced_pruned_final_all_metrics.csv
+
+Figures folder:
+/home/ashraful/Documents/Final year Thesis/thesis_project/02_after_pruning_quantization/advanced_pruning_experiments/final_results/advanced_pruned_final_cpu_bgd_offline_20260604_222049/paper_figures
+====================================================================================================
