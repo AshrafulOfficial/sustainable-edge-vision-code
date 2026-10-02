@@ -1,0 +1,25 @@
+Final Advanced Safe Pointwise Incremental-Pruned FP32 MobileNetV2 Measurement
+==========================================================================================
+Test accuracy: 99.4292%
+Macro F1: 99.2262%
+Weighted F1: 99.4295%
+Model size: 6.9022 MB
+Parameters: 1,737,890
+MACs: 249,271,775
+Average forward latency: 26.2553 ms/image
+Energy consumed: 0.000959197514 kWh
+Energy per image: 1.766152667826e-07 kWh/image
+CO2 emissions: 0.000663199712 kgCO2eq
+CO2 per image: 1.221137382215e-07 kgCO2eq/image
+
+Measurement protocol:
+- Dell Latitude CPU
+- Held-out test set
+- Batch size 1 for latency-energy-CO2
+- 50 warm-up images
+- Offline CodeCarbon country_iso_code=BGD
+
+Model description:
+- Selected 11% structured-pruned model + additional 2% safe pointwise incremental pruning
+- Do not report this as simple 13% pruning
+- Report actual parameter, MAC, model-size, latency, energy, and CO2 reductions compared with baseline

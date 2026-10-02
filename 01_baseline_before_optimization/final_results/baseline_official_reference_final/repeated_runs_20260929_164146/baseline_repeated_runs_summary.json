@@ -1,0 +1,22 @@
+{
+  "model_name": "MobileNetV2 Baseline",
+  "evaluation_device": "Dell Latitude 7390 CPU",
+  "checkpoint_epoch": 9,
+  "best_validation_accuracy": 0.9969310090842131,
+  "total_images": 5431,
+  "batch_size": 1,
+  "image_size": 224,
+  "cpu_threads": 7,
+  "model_size_mb": 26.383463859558105,
+  "total_parameters": 2272550,
+  "num_runs": 10,
+  "country_iso_code": "BGD",
+  "avg_forward_latency_ms_per_image_mean": 34.08149048250598,
+  "avg_forward_latency_ms_per_image_std": 1.9079009747432676,
+  "energy_consumed_kwh_mean": 0.00124238182896434,
+  "energy_consumed_kwh_std": 9.085058137091168e-05,
+  "co2_emissions_kg_mean": 0.0008589964627460599,
+  "co2_emissions_kg_std": 6.281509131625767e-05,
+  "total_pipeline_time_seconds_sum": 2056.079732672002,
+  "note": "Repeated (N=10) baseline CPU inference measurement, performance governor, CodeCarbon country forced to BGD (Dhaka). Supersedes the earlier single-run 'official' hardcoded values in create_official_baseline_final_results.py and the stray Canada-geolocated run in results/baseline_latency_energy.csv."
+}

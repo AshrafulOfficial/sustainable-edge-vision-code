@@ -1,0 +1,33 @@
+================================================================================
+Baseline MobileNetV2 -- repeated CPU latency/energy/CO2 measurement
+================================================================================
+Project root: /home/ashraful/Documents/Final year Thesis/thesis_project
+Output dir  : /home/ashraful/Documents/Final year Thesis/thesis_project/01_baseline_before_optimization/final_results/baseline_official_reference_final/repeated_runs_20260929_164146
+Runs        : 10
+CPU threads : 7
+Forced country (CodeCarbon): BGD (Dhaka, Bangladesh)
+PyTorch     : 2.12.0+cpu
+
+Reminder -- before trusting these numbers, confirm:
+  cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_governor | sort -u   -> performance
+  cat /sys/class/power_supply/A*/online                                -> 1
+
+  run  1: latency 33.776 ms | energy 0.0012320 kWh | CO2 0.0008518 kg | country BGD
+  run  2: latency 32.110 ms | energy 0.0011564 kWh | CO2 0.0007995 kg | country BGD
+  run  3: latency 31.216 ms | energy 0.0011205 kWh | CO2 0.0007748 kg | country BGD
+  run  4: latency 34.169 ms | energy 0.0012541 kWh | CO2 0.0008671 kg | country BGD
+  run  5: latency 33.896 ms | energy 0.0012211 kWh | CO2 0.0008443 kg | country BGD
+  run  6: latency 33.192 ms | energy 0.0011953 kWh | CO2 0.0008265 kg | country BGD
+  run  7: latency 33.894 ms | energy 0.0012319 kWh | CO2 0.0008518 kg | country BGD
+  run  8: latency 36.886 ms | energy 0.0013535 kWh | CO2 0.0009358 kg | country BGD
+  run  9: latency 37.521 ms | energy 0.0014332 kWh | CO2 0.0009909 kg | country BGD
+  run 10: latency 34.156 ms | energy 0.0012258 kWh | CO2 0.0008476 kg | country BGD
+
+================================================================================
+Latency : 34.081 +/- 1.908 ms
+Energy  : 0.0012424 +/- 0.0000909 kWh
+CO2     : 0.0008590 +/- 0.0000628 kg
+
+Saved per-run data to: /home/ashraful/Documents/Final year Thesis/thesis_project/01_baseline_before_optimization/final_results/baseline_official_reference_final/repeated_runs_20260929_164146
+Saved summary CSV to : /home/ashraful/Documents/Final year Thesis/thesis_project/01_baseline_before_optimization/final_results/baseline_official_reference_final/baseline_official_latency_energy_co2_REPEATED.csv
+Saved summary JSON to: /home/ashraful/Documents/Final year Thesis/thesis_project/01_baseline_before_optimization/final_results/baseline_official_reference_final/repeated_runs_20260929_164146/baseline_repeated_runs_summary.json

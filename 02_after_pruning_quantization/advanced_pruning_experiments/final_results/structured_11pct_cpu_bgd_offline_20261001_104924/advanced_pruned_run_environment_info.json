@@ -1,0 +1,19 @@
+{
+  "run_id": "20261001_104924",
+  "project_root": "/home/ashraful/Documents/Final year Thesis/thesis_project",
+  "result_root": "/home/ashraful/Documents/Final year Thesis/thesis_project/02_after_pruning_quantization/advanced_pruning_experiments/final_results/structured_11pct_cpu_bgd_offline_20261001_104924",
+  "model_path": "/home/ashraful/Documents/Final year Thesis/thesis_project/02_after_pruning_quantization/models/mobilenetv2_safe_structured_pruned_11_percent_full_model.pth",
+  "dataset_path": "/home/ashraful/Documents/Final year Thesis/thesis_project/data/PlantVillage",
+  "test_csv": "/home/ashraful/Documents/Final year Thesis/thesis_project/data/test_files.csv",
+  "test_images": 5431,
+  "device": "cpu",
+  "torch_version": "2.12.0+cpu",
+  "python_version": "3.12.3",
+  "os": "Linux-7.0.0-34-generic-x86_64-with-glibc2.39",
+  "cpu_count": 8,
+  "cpu_threads": 7,
+  "eval_batch_size": 32,
+  "measure_batch_size": 1,
+  "warmup_images": 50,
+  "country_iso_code": "BGD"
+}

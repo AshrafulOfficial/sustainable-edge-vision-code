@@ -1,2 +1,0 @@
-onnx_fp32_size_mb,onnx_int8_size_mb,onnx_int8_val_acc,onnx_int8_macro_prec,onnx_int8_macro_rec,onnx_int8_macro_f1,baseline_val_acc,pruned_fp32_val_acc,pytorch_qat_int8_val_acc,acc_drop_vs_baseline,acc_drop_vs_pruned_fp32,acc_drop_vs_pytorch_qat
-7.1022,1.9813,0.958139,0.961464,0.9354,0.945911,0.996931,0.986251,0.971151,0.038792,0.028112,0.013012

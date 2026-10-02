@@ -1,0 +1,20 @@
+{
+  "baseline": {
+    "parameters": 2272550,
+    "state_dict_file_MiB": 8.90351390838623,
+    "state_dict_payload_MiB": 8.799613952636719,
+    "parameters_x4bytes_MiB": 8.669090270996094
+  },
+  "final": {
+    "parameters": 1737890,
+    "state_dict_file_MiB": 6.8435163497924805,
+    "state_dict_payload_MiB": 6.7451629638671875,
+    "parameters_x4bytes_MiB": 6.629524230957031
+  },
+  "reduction_percent": {
+    "state_dict_file": 23.13690504434924,
+    "state_dict_payload": 23.347058175818443,
+    "parameters": 23.52687509625751
+  },
+  "protocol": "FP32, torch.save(model.state_dict()), no optimizer/scheduler state"
+}
